@@ -149,7 +149,7 @@ export function ContactSection() {
   const socialLinks = [
     {
       icon: <Github className='h-4 w-4' />,
-      href: "https://github.com/it21178054",
+      href: "https://github.com/tharushinimesha99",
       label: "GitHub",
       color: "gray",
     },

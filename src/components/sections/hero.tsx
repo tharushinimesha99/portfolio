@@ -260,7 +260,7 @@ export function HeroSection() {
             >
               <span className='text-sm text-gray-400'>Follow me:</span>
               {[
-                { icon: <Github className='w-4 h-4' />, href: "https://github.com/it21178054", label: "GitHub" },
+                { icon: <Github className='w-4 h-4' />, href: "https://github.com/tharushinimesha99", label: "GitHub" },
                 { icon: <Linkedin className='w-4 h-4' />, href: "https://www.linkedin.com/in/tharushi-nimesha/", label: "LinkedIn" },
               ].map((social, index) => (
                 <motion.a

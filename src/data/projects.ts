@@ -17,7 +17,7 @@ import RealTalk from '../../public/projects/realtalk.jpg'
 import StarGraze from '../../public/projects/stargraze.jpg'
 import Serena from '../../public/projects/serena.jpg'
 import Luminos from '../../public/projects/luminos.png'
-import betel from '../../public/projects/betel.png'
+import SmartMusa from '../../public/projects/SmartMusa.png'
 
 import rmsLogin from '../../public/projects/more/rmsLogin.png'
 import rmsRegister from '../../public/projects/more/rmsRegister.png'
@@ -27,6 +27,17 @@ import rmsOrders from '../../public/projects/more/rmsOrders.png'
 import rmsCreateOrder from '../../public/projects/more/rmsCreateOrder.png'  
 import rmsOrderDetails from '../../public/projects/more/rmsOrderDetails.jpeg'  
 import rmsKitchen from '../../public/projects/more/rmsKitchen.png'
+
+import smartmusaLogin from '../../public/projects/more/smartmusaLogin.jpeg'
+import smartmusaSignUp from '../../public/projects/more/smartmusaSignUp.jpeg'
+import smartmusaDisease1 from '../../public/projects/more/smartmusaDiseas1.jpeg'
+import smartmusaDiseasePrediction from '../../public/projects/more/smartmusaDiseasePrediction.jpeg'
+import smartmusaGradcam from '../../public/projects/more/smartmusaGradcam.jpeg'
+import smartmusaPricePrediction from '../../public/projects/more/smartmusaPricePrediction.jpeg'
+import smartmusaIrrigation from '../../public/projects/more/smartmusaIrrigation.jpeg'
+import smartmusaClassification from '../../public/projects/more/smartmusaClassification.jpeg'
+
+
 
 import auth1 from '../../public/projects/more/auth1.png'
 import auth2 from '../../public/projects/more/auth2.png'
@@ -120,28 +131,17 @@ import stateLk6 from '../../public/projects/more/statelk6.png'
 import stateLk7 from '../../public/projects/more/statelk7.png'
 
 
-import betel1 from '../../public/projects/more/betel1.png'
-import betel2 from '../../public/projects/more/betel2.png'
-import betel3 from '../../public/projects/more/betel3.png'
-import betel4 from '../../public/projects/more/betel4.png'
-import betel5 from '../../public/projects/more/betel5.png'
-import betel6 from '../../public/projects/more/betel6.png'
+import mis from '../../public/projects/mis.png'
+import misBeneficiarry from '../../public/projects/more/misBeneficiary.jpeg'
+import msDashboard1 from '../../public/projects/more/misDashboard1.jpeg'
+import misDashboard2 from '../../public/projects/more/misDashboard2.jpeg'
+import misDashboard3 from '../../public/projects/more/misDashboard3.jpeg'
+import misDashboard4 from '../../public/projects/more/misDashboard4.jpeg'
+import misDasboard5 from '../../public/projects/more/misDashboard5.jpeg'
+import misDublicates from '../../public/projects/more/misDublicates.png'
+import misManagePermission from '../../public/projects/more/misManagePermission.png'
+import misUserManagement from '../../public/projects/more/misUserManagement.png'
 
-
-import exam from '../../public/projects/exam.png'
-import exam1 from '../../public/projects/more/exam1.png'
-import exam2 from '../../public/projects/more/exam2.png'
-import exam3 from '../../public/projects/more/exam3.png'
-import exam4 from '../../public/projects/more/exam4.png'
-import exam5 from '../../public/projects/more/exam5.png'
-import exam6 from '../../public/projects/more/exam6.png'
-import exam7 from '../../public/projects/more/exam7.png'
-import exam8 from '../../public/projects/more/exam8.png'
-import exam9 from '../../public/projects/more/exam9.png'
-import exam10 from '../../public/projects/more/exam10.png'
-import exam11 from '../../public/projects/more/exam11.png'
-import exam12 from '../../public/projects/more/exam12.png'
-import exam13 from '../../public/projects/more/exam13.png'
 
 export interface Project {
     title: string;
@@ -157,28 +157,29 @@ export interface Project {
   }
   
  
-  export const projects: Project[] = [{
-  title: "University Exam Management System",
-  description: "A comprehensive full-stack application for managing university examinations, built with modern technologies. This system provides end-to-end solutions for exam scheduling, question management, student enrollment, online exam taking, result processing, and administrative oversight. Features include role-based access control for Admin, Faculty, Exam Coordinator, Invigilator, and Student roles, JWT authentication with refresh tokens, real-time exam monitoring, auto-grading for MCQ questions, and automated answer auto-save during exams. The platform offers a fully responsive UI with dark mode support, comprehensive analytics and reporting, and seamless integration across all examination workflows from question bank creation to result publication.",
-  image: exam,
-  images: [exam, exam1, exam2, exam3, exam4, exam5, exam6, exam7, exam8, exam9, exam10, exam11, exam12, exam13],
-  github: "https://github.com/SarangaSiriwardhana9/University-Exam-Management-System-Frontend",
-  tags: ["NestJS", "Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "JWT", "RBAC", "Shadcn UI"],
-  category: "Education",
-  color: "from-indigo-400/20 to-indigo-600/20",
+  export const projects: Project[] = [
+    {
+  title: "Enterprise Management Information System (MIS)",
+  description: "A large-scale web-based Management Information System developed to centralize organizational operations and support data-driven decision-making. The platform integrates 16+ functional modules covering beneficiary management, agriculture and livestock records, rehabilitation projects, service center registrations, and administrative workflows. Key features include intelligent duplicate record detection to maintain data integrity, role-based user management with fine-grained permission control, dynamic dashboards with real-time analytics, and automated MIS reporting with PDF/Excel export capabilities. The system was built with a responsive user interface and secure authentication mechanisms, ensuring seamless inter-module communication and efficient large-scale data handling across departments. Source code is private due to organizational confidentiality.",
+  image: mis,
+  images: [misBeneficiarry, msDashboard1, misDashboard2, misDashboard3, misDashboard4, misDasboard5, misDublicates, misManagePermission, misUserManagement],
+  github: "",
+  tags: ["Laravel", "MySQL", "Blade", "HTML", "CSS", "Bootstrap", "JavaScript", "Git"],
+  category: "Enterprise",
+  color: "from-emerald-400/20 to-emerald-600/20",
   size: "large"
 },
       {
-      title: "BetelCare - AI-Powered Agricultural Mobile Application",
-      description: "Developed a comprehensive Flutter mobile application as part of SLIIT research initiative, specifically designed for Sri Lankan betel farmers across Kurunegala, Puttalam, and Anamaduwa regions. The app integrates four core AI-powered functionalities: CNN-based disease detection for real-time pathogen identification, ensemble ML harvest prediction with GPS/map-based field measurement systems, WhatsApp chatbot (BetelBrio) for multilingual market intelligence, and weather advisory framework for irrigation and crop protection recommendations. Built with complete Sinhala language integration using Flutter, TensorFlow Lite, Supabase, Google Maps SDK, and WhatsApp Business API, this research project represents the first comprehensive AI-powered solution addressing critical technological gaps in Sri Lankan betel cultivation, successfully bridging traditional farming practices with modern data science methodologies to enhance agricultural productivity and sustainability.",
-      image: betel,
-      images:  [betel, betel1, betel2, betel3, betel4, betel5, betel6],
-      github: "https://github.com/SarangaSiriwardhana9/BetleCare-App",
-      tags: ["Flutter", "Python","Supabase","scikit-learn", "ML", ],
-      category: "Mobile App",
-      color: "from-green-400/20 to-green-600/20",
-      size: "large"
-    },
+  title: "SMARTMUSA – Smart Banana Cultivation & Market Intelligence System",
+  description: "SMARTMUSA is an AI-driven mobile application designed to enhance banana cultivation practices and improve market accessibility in Sri Lanka. The system combines CNN-based banana ripeness prediction, automated disease diagnosis, and symptom detection with IoT-powered smart irrigation management for efficient water usage. Machine learning models are used to forecast market trends, helping farmers make informed selling decisions. Real-time feedback mechanisms support day-to-day farming activities while reducing post-harvest losses. The platform focuses on maximizing resource utilization, improving profitability for small-scale farmers, and promoting sustainable agriculture through data-driven decision-making.",
+  image: SmartMusa,
+  images: [SmartMusa, smartmusaLogin, smartmusaSignUp, smartmusaDisease1, smartmusaDiseasePrediction, smartmusaGradcam, smartmusaPricePrediction, smartmusaIrrigation, smartmusaClassification],
+  github: "https://github.com/IT21172700/24-25J-285.git",
+  tags: ["React Native", "FastAPI", "TensorFlow", "IoT", "Machine Learning", "Computer Vision"],
+  category: "Mobile App",
+  color: "from-yellow-400/20 to-green-600/20",
+  size: "large"
+},
 
     {
       title: "EduPulse-Online Learning Management System With Microservices Architecture",

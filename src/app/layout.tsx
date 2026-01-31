@@ -111,7 +111,7 @@ export default function RootLayout({
               url: "https://tharushi-nimesha.netlify.app",
               sameAs: [
                 "https://www.linkedin.com/in/tharushi-nimesha/", // Replace with your LinkedIn
-                "https://github.com/it21178054", // Replace with your GitHub
+                "https://github.com/tharushinimesha99", // Replace with your GitHub
                 //"https://instagram.com/_.l_sara_?igshid=NTc4MTIwNjQ2YQ==", // Replace with your Twitter
               ],
               worksFor: {

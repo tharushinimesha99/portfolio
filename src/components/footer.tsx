@@ -9,7 +9,7 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/it21178054",
+      href: "https://github.com/tharushinimesha99",
       label: "GitHub",
     },
     {

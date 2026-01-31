@@ -38,15 +38,15 @@ const ImageCarousel = ({ images, title }: { images: any[]; title: string }) => {
     <>
       <div className='space-y-4'>
         {/* Main Image */}
-        <div className='relative aspect-video rounded-lg overflow-hidden bg-gray-900 group/image'>
-          <Image
-            src={images[currentIndex] || "/placeholder.svg?height=300&width=500"}
-            alt={`${title} - Image ${currentIndex + 1}`}
-            fill
-            className='object-cover transition-opacity duration-300 cursor-pointer'
-            priority
-            onClick={() => setShowFullScreen(true)}
-          />
+          <div className='relative w-full h-[60vh] md:h-[50vh] lg:h-[40vh] rounded-lg overflow-hidden bg-gray-900 group/image flex items-center justify-center'>
+            <Image
+              src={images[currentIndex] || "/placeholder.svg?height=300&width=500"}
+              alt={`${title} - Image ${currentIndex + 1}`}
+              fill
+              className='object-contain transition-opacity duration-300 cursor-pointer'
+              priority
+              onClick={() => setShowFullScreen(true)}
+            />
 
           {/* Expand Button Overlay */}
           <button

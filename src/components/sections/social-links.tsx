@@ -6,7 +6,7 @@ import { Github, Linkedin, Instagram, Facebook } from "lucide-react";
 export function SocialLinks() {
   const links = [
     {
-      href: "https://github.com/it21178054",
+      href: "https://github.com/tharushinimesha99",
       icon: <Github className='h-4 w-4' />,
       label: "GitHub",
     },
