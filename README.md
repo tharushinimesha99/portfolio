@@ -1,6 +1,29 @@
 # 🚀 Personal Portfolio
 
-A modern and responsive developer portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS (ShadCN UI)**, and **Framer Motion**. This portfolio showcases my projects, skills, and experience as a Full Stack Developer.
+A modern and responsive developer portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS (ShadCN UI)**, and **Framer Motion**. This portfolio showcases my projects, skills, and experience as a Full Stack Developer with expertise in MERN stack, mobile development, and enterprise systems.
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Featured Projects](#-featured-projects)
+- [Getting Started](#-getting-started)
+- [Deployment](#-deployment)
+- [Contact](#-connect-with-me)
+
+---
+
+## ✨ Features
+
+- 🎨 **Modern & Responsive Design** - Mobile-first approach with beautiful UI
+- ⚡ **Performance Optimized** - Static export with image optimization
+- 🎬 **Smooth Animations** - Framer Motion for engaging interactions
+- 🌙 **Dark/Light Mode** - Theme toggle support
+- 📱 **Mobile Friendly** - Works seamlessly on all devices
+- ♿ **Accessibility** - WCAG compliant components
+- 🔍 **SEO Optimized** - Proper meta tags and semantic HTML
 
 ---
 
@@ -10,16 +33,42 @@ A modern and responsive developer portfolio built with **Next.js 15**, **TypeScr
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS, [ShadCN UI](https://ui.shadcn.dev/)
 - **Animation**: [Framer Motion](https://www.framer.com/motion/)
-- **Package Manager**: Yarn
+- **Package Manager**: Yarn / npm
 - **Deployment**: [Netlify](https://www.netlify.com/) / Static Export
+- **Version Control**: Git
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
 | Home Page | Projects Section |
 |----------|------------------|
 | ![Capture1](https://github.com/user-attachments/assets/d5ec4f04-21df-4611-b292-c6475cd19ef2) | ![Capture](https://github.com/user-attachments/assets/6f2d0ecd-a987-4b2c-801e-47921334321a) |
+
+---
+
+## 🚀 Featured Projects
+
+### Enterprise & Large Scale
+- **Enterprise Management Information System (MIS)** - 16+ module management platform with duplicate detection and role-based access
+- **SMARTMUSA** - AI-driven banana cultivation system with ML models and IoT integration
+- **EduPulse** - Microservices-based e-learning platform with Stripe payment integration
+
+### E-Commerce
+- **Mr. King Cafe** - Full-stack cafe ordering system with Stripe integration and admin dashboard
+- **StateLk** - Real estate marketplace for buying/selling properties in Sri Lanka
+- **E-Mate** - Mobile e-commerce app with real-time order tracking
+
+### Communication & Chat
+- **Real Talk** - Real-time chat application with Socket.IO
+- **SriChat** - ChatGPT clone powered by OpenAI API
+
+### Mobile Applications
+- **KeepIt** - P2P book marketplace mobile app
+- **BuildHub** - Procurement management system for construction industry
+- **Codewave** - Interactive programming assistant for students
+
+[View all projects →](https://yourdomain.com/projects)
 
 ---
 
