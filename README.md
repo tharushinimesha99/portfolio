@@ -74,18 +74,23 @@ A modern and responsive developer portfolio built with **Next.js 15**, **TypeScr
 
 ## 📦 Installation
 
+### Prerequisites
+- Node.js 18+ 
+- Yarn or npm
+
+### Setup Steps
+
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+# Clone the repository
+git clone https://github.com/tharushinimesha99/portfolio.git
 
 # Navigate into the project
-cd your-repo-name
+cd portfolio-v2
 
 # Install dependencies
 yarn install
-
-# Run the development server
-yarn dev
+# or
+npm install
 ```
 
 ---
@@ -116,34 +121,79 @@ export default nextConfig;
 
 ```bash
 src/
-├── components/         # UI and shared components
-├── pages/              # Page routes
-├── styles/             # Global styles
-├── utils/              # Utility functions
+├── app/                # Next.js app router
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Home page
+│   └── favicon.ico     # Favicon
+├── components/         # Reusable components
+│   ├── sections/       # Page sections
+│   ├── ui/            # UI components (ShadCN)
+│   ├── navbar.tsx     # Navigation bar
+│   ├── footer.tsx     # Footer component
+│   └── theme-provider.tsx
+├── data/
+│   └── projects.ts    # Project listings
+├── styles/            # Global styles
+│   ├── global.css
+│   └── tailwind.css
+└── utils/             # Utility functions
+    └── tailwind-utils.ts
+
 public/
-├── images/             # Portfolio images
+├── projects/          # Project images
+├── icons/            # Icon assets
+├── robots.txt        # SEO robots file
+└── sitemap.xml       # SEO sitemap
 ```
 
 ---
 
-## 👨‍💻 Author
+## � Deployment
 
-- **Name**: Saranga Siriwardhana
+### Deploy to Netlify
+
+1. Push your code to GitHub
+2. Connect repository to Netlify
+3. Configure build command: `npm run build`
+4. Configure publish directory: `out/`
+5. Deploy!
+
+### Environment Variables
+No environment variables required for static export.
+
+---
+
+## 👨‍💻 About
+
+- **Name**: Tharushi Nimesha
 - **Title**: Full Stack Developer
-- **LinkedIn**: [linkedin.com/in/sarangasiriwardhana](https://www.linkedin.com/in/saranga-siriwardhana-409494218/)
-- **Portfolio**: [yourdomain.com](https://yourdomain.com) *(replace with your actual URL)*
+- **Expertise**: MERN Stack, Mobile Development, Enterprise Systems
+- **Location**: Sri Lanka
 
 ---
 
 ## 🌐 Connect with Me
 
-- [GitHub](https://github.com/SarangaSiriwardhana9)
-- [LinkedIn](https://www.linkedin.com/in/saranga-siriwardhana-409494218/)
-- [Instagram](https://instagram.com/_.l_sara_?igshid=NTc4MTIwNjQ2YQ==)
-- [Facebook](https://www.facebook.com/saranga.siriwardana.1?mibextid=LQQJ4d)
+- [GitHub](https://github.com/tharushinimesha99)
+- [LinkedIn](https://www.linkedin.com/in/tharushi-nimesha/)
+- [Facebook](https://www.facebook.com/tharushi.nimesha.980315)
 
 ---
 
-## 📜 License
+## � License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) - React framework
+- [ShadCN UI](https://ui.shadcn.dev/) - Component library
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Netlify](https://www.netlify.com/) - Hosting platform
+
+---
+
+**Last Updated**: January 31, 2026
